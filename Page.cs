@@ -1,4 +1,6 @@
-internal class Page
+namespace aoc2024._5;
+
+internal class Page //Class that represents page with associated rules
 {
     private readonly HashSet<int> _numbersBefore = [];
     private readonly HashSet<int> _numbersAfter = [];
